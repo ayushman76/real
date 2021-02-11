@@ -1,0 +1,75 @@
+@media(max-width:1200px) {
+    nav {
+        top: 50px;
+        position: fixed;
+        width: 100%;
+        z-index: 999999;
+        background: rgb(255 255 255);
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 29px!important;
+    }
+	
+
+    header {
+        position: sticky;
+        top: 0px;
+        z-index: 9999999;
+    }
+    .header_widget {
+        display: none
+    }
+    .my_projects img {
+        height: auto!important;
+        width: 100%!important;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .item>img {
+        height: 200px!important;
+        width: 100%;
+    }
+    .col-md-3 {
+        width: 50%;
+        float: left;
+    }
+    .my_service>a>img {
+        width: 100%!important;
+        height: auto!important;
+        padding: 20px;
+    }
+    .first {
+        border: 1px solid rgb(255 255 255);
+        width: 15%;
+        margin: 8px 0px;
+    }
+    .sec {
+        border: 1px solid rgb(255 255 255);
+        width: 10%;
+    }
+    .menu {
+        line-height: 6;
+        position: absolute;
+        top: -34px;
+        right: 32px;
+        width: 56%;
+        transform: rotate(-180deg);
+    }
+    .agent>img {
+        width: 100%;
+        height: auto;
+        border-radius: 100%;
+    }
+    .dis {
+        display: none;
+    }
+    .article05>.container>.row>.col-md-3 {
+        width: 50%;
+        float: left;
+    }
+}

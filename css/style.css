@@ -1,0 +1,189 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif!important;
+    font-family: 'Playfair Display', serif!important;
+    font-family: 'Raleway', sans-serif!important;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size:32px!important;
+}
+
+header {
+    background: rgb(113 125 173);
+}
+
+.header_widget>ul>li>a,.my_footer_widget>ul>li>a{
+    color: white!important;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+a:hover {
+    background-color: transparent!important;
+}
+p{
+	font-size:18px;
+}
+.pad-10,
+.my_projects,
+h2,
+h3,
+h4,
+h5,
+h6,
+.my_btns,
+nav,
+.my_service,
+article {
+    padding: 10px!important;
+}
+
+.item>img {
+    height: 550px!important;
+    width: 100%;
+}
+nav{
+	
+	position:sticky;
+	top:0px;
+	z-index:9999999;
+	background-color:white;
+	box-shadow: 0px 3px 17px 5px #8080800f;
+	
+}
+.my_projects {
+    background: rgb(255 255 255);
+    box-shadow: 3px 5px 56px 1px #80808026;
+    border-radius: 10px;
+    margin: 15px 0px;
+}
+
+.my_projects img {
+    height: 230px!important;
+    width: 100%!important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.my_projects>ul>li,
+a {
+    color: rgb(0 0 0)!important;
+    font-size: 15px!important;
+}
+
+.color_sky{
+    color: rgb(113 125 173)!important;
+    font-size: 20px;
+}
+.color_white{
+                    color:white!important;
+}
+.my_btns span a {
+    padding: 10px;
+    background: rgb(113 125 173);
+    border: none;
+    color: rgb(255 255 255)!important;
+    border-radius: 28px;
+    box-shadow: 0px 7px 27px 2px #8080804a;
+    margin: 10px 0px;
+}
+
+.my_service {
+    box-shadow: 0px 5px 19px 3px #80808021;
+    border-radius: 16px;
+    margin: 10px 0px;
+}
+
+.my_service>a>img {
+    width: 100%!important;
+    height: 175px!important;
+    padding: 31px
+}
+.my_bank{
+margin:10px 0px;
+}
+.my_bank>img{
+    width: 100%;
+    height: 80px!important;
+
+}
+.my_btn{
+	padding: 10px;
+  
+    border-radius: 31px;
+    border: 1px solid rgb(113 125 173);
+    margin: 36px 0px;
+	
+
+}
+.price{
+	
+    color: rgb(112 124 172)!important;
+    font-size: 15px!important;
+    font-weight: 900;
+}
+.btn_div{
+	margin: 35px;
+}
+.agent>img{
+	width: 100%;
+   
+    border-radius: 100%;
+    
+}
+.agent{
+	padding: 10px;
+    background: rgb(255 255 255);
+    box-shadow: 3px 5px 56px 1px #80808026;
+    border-radius: 10px;
+    margin: 15px 0px;
+}
+.agent>ul>li>a{
+	color:black!important;
+}
+.agent:hover {
+	background: rgb(113 125 173);
+	color:white!important;
+	transition: 0.5s ease in out;
+}
+.agent:hover .price{
+	
+	color:white!important;
+	
+}.my_service:hover{
+background: rgb(113 125 173);
+
+transition: 0.5s ease in out;
+}
+.my_service:hover .my_service>a>p{
+ color:white!important;
+transition: 0.5s ease in out;
+}
+
+.agent:hover {
+	background: rgb(113 125 173);
+	color:white!important;
+	transition: 0.5s ease in out;
+}
+.agent:hover .price{
+	
+	color:white!important;
+	
+}
+	section{
+	background-image:url(..//images/slider/Screenshot_15.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	background-size:cover;
+}
+
+footer{
+       background: rgb(0 0 0 / 89%);
+}
